@@ -46,6 +46,23 @@ status : new status of light     0 : off     1 : on
 
 Response Body : Like of Devicelist ( Json Format )
 
+[{"id":1,"ip":"192.168.1.104","mode":3,"packid":14064926,"packname":"gang","tblPackage_pin":
+[{"Status":"0","id":1,"name":"light 1","pin":0,"pinid":14064926},{"Status":"1","id":2,"name":"light 2","pin":1,"pinid":14064927},
+{"Status":"0","id":3,"name":"light 3","pin":2,"pinid":14064928}]},{"id":2,"ip":"192.168.1.105","mode":2,"packid":15124080,"packname":
+"gang 2","tblPackage_pin":[{"Status":"0","id":4,"name":"light 1","pin":0,"pinid":15124080},{"Status":"1","id":5,"name":"light 2","pin":1,"pinid":15124081}]}
+,{"id":3,"ip":"192.168.1.106","mode":1,"packid":15680885,"packname":"gang 1","tblPackage_pin":[{"Status":"1","id":6,"name":"light 1","pin":0,"pinid":15680885}]}
+,{"id":4,"ip":"192.168.1.107","mode":3,"packid":14064957,"packname":"gang 2","tblPackage_pin":[{"Status":"1","id":7,"name":"light 1","pin":0,"pinid":14064957},
+{"Status":"1","id":8,"name":"light 2","pin":1,"pinid":14064958},{"Status":"1","id":9,"name":"light 3","pin":2,"pinid":14064959}]},{"id":5,"ip":"192.168.1.108","mode":4,"packid":14064878,
+"packname":"gang 4","tblPackage_pin":[{"Status":"1","id":10,"name":"light 1","pin":0,"pinid":14064878},{"Status":"0","id":11,"name":"light 2","pin":1,"pinid":14064879},
+{"Status":"1","id":12,"name":"light 3","pin":2,"pinid":14064880},{"Status":"1","id":13,"name":"light 4","pin":3,"pinid":14064881}]},{"id":6,"ip":"192.168.1.109","mode":6,"
+packid":12871926,"packname":"curtain","tblPackage_pin":[{"Status":"1","id":14,"name":"\u062f\u0631\u06af\u0627\u0647 1","pin":0,"pinid":12871926},{"Status":"0","id":15,"name"
+:"\u062f\u0631\u06af\u0627\u0647 2","pin":1,"pinid":12871927},{"Status":"0","id":16,"name":"\u062f\u0631\u06af\u0627\u0647 3","pin":2,"pinid":12871928}]},{"id":7,"ip"
+:"192.168.1.8","mode":4,"packid":946772,"packname":"4 senario","tblPackage_pin":[{"Status":"1","id":17,"name":"sen 1","pin":0,"pinid":946772},{"Status":"1","id":18,
+"name":"sen 2","pin":1,"pinid":946773},{"Status":"0","id":19,"name":"sen 3","pin":2,"pinid":946774},{"Status":"0","id":20,"name":"Sen 4","pin":3,"pinid":946775}]},
+{"id":8,"ip":"192.168.1.132","mode":4,"packid":1101223,"packname":"gang 4","tblPackage_pin":[{"Status":"0","id":21,"name":"light 1","pin":0,"pinid":1101223},
+{"Status":"0","id":22,"name":"light 2","pin":1,"pinid":1101224},{"Status":"0","id":23,"name":"light 3","pin":2,"pinid":1101225}
+,{"Status":"0","id":24,"name":"light 4","pin":3,"pinid":1101226}]}]
+
 
 
 Request Body 
@@ -57,6 +74,23 @@ name : new name of light
 
 Response Body like DeviceList ( Json Format )
 
+[{"id":1,"ip":"192.168.1.104","mode":3,"packid":14064926,"packname":"gang","tblPackage_pin":
+[{"Status":"0","id":1,"name":"light 1","pin":0,"pinid":14064926},{"Status":"1","id":2,"name":"light 2","pin":1,"pinid":14064927},
+{"Status":"0","id":3,"name":"light 3","pin":2,"pinid":14064928}]},{"id":2,"ip":"192.168.1.105","mode":2,"packid":15124080,"packname":
+"gang 2","tblPackage_pin":[{"Status":"0","id":4,"name":"light 1","pin":0,"pinid":15124080},{"Status":"1","id":5,"name":"light 2","pin":1,"pinid":15124081}]}
+,{"id":3,"ip":"192.168.1.106","mode":1,"packid":15680885,"packname":"gang 1","tblPackage_pin":[{"Status":"1","id":6,"name":"light 1","pin":0,"pinid":15680885}]}
+,{"id":4,"ip":"192.168.1.107","mode":3,"packid":14064957,"packname":"gang 2","tblPackage_pin":[{"Status":"1","id":7,"name":"light 1","pin":0,"pinid":14064957},
+{"Status":"1","id":8,"name":"light 2","pin":1,"pinid":14064958},{"Status":"1","id":9,"name":"light 3","pin":2,"pinid":14064959}]},{"id":5,"ip":"192.168.1.108","mode":4,"packid":14064878,
+"packname":"gang 4","tblPackage_pin":[{"Status":"1","id":10,"name":"light 1","pin":0,"pinid":14064878},{"Status":"0","id":11,"name":"light 2","pin":1,"pinid":14064879},
+{"Status":"1","id":12,"name":"light 3","pin":2,"pinid":14064880},{"Status":"1","id":13,"name":"light 4","pin":3,"pinid":14064881}]},{"id":6,"ip":"192.168.1.109","mode":6,"
+packid":12871926,"packname":"curtain","tblPackage_pin":[{"Status":"1","id":14,"name":"\u062f\u0631\u06af\u0627\u0647 1","pin":0,"pinid":12871926},{"Status":"0","id":15,"name"
+:"\u062f\u0631\u06af\u0627\u0647 2","pin":1,"pinid":12871927},{"Status":"0","id":16,"name":"\u062f\u0631\u06af\u0627\u0647 3","pin":2,"pinid":12871928}]},{"id":7,"ip"
+:"192.168.1.8","mode":4,"packid":946772,"packname":"4 senario","tblPackage_pin":[{"Status":"1","id":17,"name":"sen 1","pin":0,"pinid":946772},{"Status":"1","id":18,
+"name":"sen 2","pin":1,"pinid":946773},{"Status":"0","id":19,"name":"sen 3","pin":2,"pinid":946774},{"Status":"0","id":20,"name":"Sen 4","pin":3,"pinid":946775}]},
+{"id":8,"ip":"192.168.1.132","mode":4,"packid":1101223,"packname":"gang 4","tblPackage_pin":[{"Status":"0","id":21,"name":"light 1","pin":0,"pinid":1101223},
+{"Status":"0","id":22,"name":"light 2","pin":1,"pinid":1101224},{"Status":"0","id":23,"name":"light 3","pin":2,"pinid":1101225}
+,{"Status":"0","id":24,"name":"light 4","pin":3,"pinid":1101226}]}]
+
 
 
 Requset Body 
@@ -67,6 +101,85 @@ packid : id of package
 packname : new package name
 
 Response Body Like DeviceList ( JSON Format )
+
+[{"id":1,"ip":"192.168.1.104","mode":3,"packid":14064926,"packname":"gang","tblPackage_pin":
+[{"Status":"0","id":1,"name":"light 1","pin":0,"pinid":14064926},{"Status":"1","id":2,"name":"light 2","pin":1,"pinid":14064927},
+{"Status":"0","id":3,"name":"light 3","pin":2,"pinid":14064928}]},{"id":2,"ip":"192.168.1.105","mode":2,"packid":15124080,"packname":
+"gang 2","tblPackage_pin":[{"Status":"0","id":4,"name":"light 1","pin":0,"pinid":15124080},{"Status":"1","id":5,"name":"light 2","pin":1,"pinid":15124081}]}
+,{"id":3,"ip":"192.168.1.106","mode":1,"packid":15680885,"packname":"gang 1","tblPackage_pin":[{"Status":"1","id":6,"name":"light 1","pin":0,"pinid":15680885}]}
+,{"id":4,"ip":"192.168.1.107","mode":3,"packid":14064957,"packname":"gang 2","tblPackage_pin":[{"Status":"1","id":7,"name":"light 1","pin":0,"pinid":14064957},
+{"Status":"1","id":8,"name":"light 2","pin":1,"pinid":14064958},{"Status":"1","id":9,"name":"light 3","pin":2,"pinid":14064959}]},{"id":5,"ip":"192.168.1.108","mode":4,"packid":14064878,
+"packname":"gang 4","tblPackage_pin":[{"Status":"1","id":10,"name":"light 1","pin":0,"pinid":14064878},{"Status":"0","id":11,"name":"light 2","pin":1,"pinid":14064879},
+{"Status":"1","id":12,"name":"light 3","pin":2,"pinid":14064880},{"Status":"1","id":13,"name":"light 4","pin":3,"pinid":14064881}]},{"id":6,"ip":"192.168.1.109","mode":6,"
+packid":12871926,"packname":"curtain","tblPackage_pin":[{"Status":"1","id":14,"name":"\u062f\u0631\u06af\u0627\u0647 1","pin":0,"pinid":12871926},{"Status":"0","id":15,"name"
+:"\u062f\u0631\u06af\u0627\u0647 2","pin":1,"pinid":12871927},{"Status":"0","id":16,"name":"\u062f\u0631\u06af\u0627\u0647 3","pin":2,"pinid":12871928}]},{"id":7,"ip"
+:"192.168.1.8","mode":4,"packid":946772,"packname":"4 senario","tblPackage_pin":[{"Status":"1","id":17,"name":"sen 1","pin":0,"pinid":946772},{"Status":"1","id":18,
+"name":"sen 2","pin":1,"pinid":946773},{"Status":"0","id":19,"name":"sen 3","pin":2,"pinid":946774},{"Status":"0","id":20,"name":"Sen 4","pin":3,"pinid":946775}]},
+{"id":8,"ip":"192.168.1.132","mode":4,"packid":1101223,"packname":"gang 4","tblPackage_pin":[{"Status":"0","id":21,"name":"light 1","pin":0,"pinid":1101223},
+{"Status":"0","id":22,"name":"light 2","pin":1,"pinid":1101224},{"Status":"0","id":23,"name":"light 3","pin":2,"pinid":1101225}
+,{"Status":"0","id":24,"name":"light 4","pin":3,"pinid":1101226}]}]
+
+
+
+
+
+
+
+Sample Model of DeviceList (Flutter Model ) :
+
+class modelDeviceList {
+  int id;
+  String ip;
+  int mode;
+  int packid;
+  String packname;
+  List<tblPackage_pin> tblpack_pin;
+
+  modelDeviceList({
+    required this.id,
+    required this.ip,
+    required this.mode,
+    required this.packid,
+    required this.packname,
+    required this.tblpack_pin,
+  });
+  factory modelDeviceList.fromJson(Map<String, dynamic> json) => modelDeviceList(
+      id: json["id"],
+      ip: json["ip"],
+      mode: json["mode"],
+      packid: json["packid"],
+      packname: json["packname"],
+      tblpack_pin: List<tblPackage_pin>.from(json['tblPackage_pin'].map((x) => tblPackage_pin.fromJson(x)))
+  );
+}
+
+class tblPackage_pin {
+  int id;
+  String name;
+  int pin;
+  int pinid;
+  tblPackage_pin({
+    required this.id,
+    required this.name,
+    required this.pin,
+    required this.pinid,
+  });
+  factory tblPackage_pin.fromJson(Map<dynamic, dynamic> json) =>
+      tblPackage_pin(
+        id: json["id"],
+        name: json["name"],
+        pin:json["pin"],
+        pinid:json["pinid"],
+      );
+}
+
+
+by this model You can convert All json response to model in flutter
+
+download android program : https://play.google.com/store/apps/details?id=com.narmgostaran.mrsmartflutterhafez
+
+Support URL : http://mrsmart.narmgostaran.com/
+email : hafez.developer13@gmail.com
 
 
 
